@@ -6,12 +6,21 @@ import org.springframework.web.bind.annotation.*;
 @RestController
 @EnableAutoConfiguration
 public class Example {
+<<<<<<< HEAD
 
  //To return Hello World
  
     @RequestMapping("/")
     String home() {
 		System.out.println(" ");
+=======
+    
+//TO Print Hello World
+    
+    @RequestMapping("/")
+    String home() {
+        System.out.println(" ");
+>>>>>>> 33cbbe6019294434aaff9e6a72dee3693649c22b
         return "Hello World - v3!";
     }
 
