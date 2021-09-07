@@ -7,8 +7,11 @@ import org.springframework.web.bind.annotation.*;
 @EnableAutoConfiguration
 public class Example {
 
+ //To return Hello World
+ 
     @RequestMapping("/")
     String home() {
+		System.out.println(" ");
         return "Hello World - v3!";
     }
 
