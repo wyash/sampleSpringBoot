@@ -3,24 +3,16 @@ import org.springframework.boot.autoconfigure.*;
 import org.springframework.stereotype.*;
 import org.springframework.web.bind.annotation.*;
 
+//SpringBoot Anotations
 @RestController
 @EnableAutoConfiguration
 public class Example {
-<<<<<<< HEAD
 
- //To return Hello World
- 
+// to print Hello World
+
     @RequestMapping("/")
     String home() {
-		System.out.println(" ");
-=======
-    
-//TO Print Hello World
-    
-    @RequestMapping("/")
-    String home() {
-        System.out.println(" ");
->>>>>>> 33cbbe6019294434aaff9e6a72dee3693649c22b
+
         return "Hello World - v3!";
     }
 
@@ -29,3 +21,4 @@ public class Example {
     }
 
 }
+
